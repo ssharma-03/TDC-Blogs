@@ -1,0 +1,15 @@
+Feature,Description,Type
+MedInc,Median income in block group (tens of thousands of dollars),Numerical
+HouseAge,Median house age in block group (years),Numerical
+AveRooms,Average number of rooms per household,Numerical
+AveBedrms,Average number of bedrooms per household,Numerical
+Population,Block group population,Numerical
+AveOccup,Average number of household members,Numerical
+Latitude,Block group latitude,Numerical
+Longitude,Block group longitude,Numerical
+income_per_person,Income per person (derived feature),Numerical
+rooms_per_person,Rooms per person (derived feature),Numerical
+bedrooms_ratio,Bedrooms to rooms ratio (derived feature),Numerical
+income_category,Income level category (categorical),Categorical
+location_category,Geographic location category (categorical),Categorical
+target,Median house value (hundreds of thousands of dollars),Numerical
